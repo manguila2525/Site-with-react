@@ -8,7 +8,7 @@ export default class Card extends Component {
 
     async componentDidMount() {
         const res = await fetch("https://jsonplaceholder.typicode.com/posts")
-        const data = res.json()
+        const data = await res.json()
         this.setState({
             posts: data
           })

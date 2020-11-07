@@ -1,14 +1,13 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+
 // COMPONENTS
-import Navbar from './components/Navbar';
-import Card from './components/Card'
+import Practica from './components/Daniela/practiques/Practica';
+
 function App() {
   return (
-    <div>
-   <Navbar />
- 
-      <Card titulo="Titulo" descripcion="Informacion"/>
-    </div>
+    <Fragment>
+     <Practica/>
+    </Fragment>
   );
 }
 export default App;
