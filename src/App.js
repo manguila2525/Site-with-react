@@ -1,12 +1,14 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 // COMPONENTS
-import Practica from './components/Daniela/practiques/Practica';
+import Crud1 from './components/Maikol/CRUD/Crud1';
+
+
 
 function App() {
   return (
     <Fragment>
-     <Practica/>
+      <Crud1 />
     </Fragment>
   );
 }
